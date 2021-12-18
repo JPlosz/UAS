@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Study Abroad</title>
+</head>
+<body>
+    <div class="banner">
+        <a href="index"><img class="homebtn" src="home.png" alt="Home"></a>
+        <a href="#goto"><img class="homebtn" src="info.png" alt="About project."></a>
+        <a href="Register" class="myButton" onclick="">Register</a>
+        <a href="Sign-In" class="myButton" onclick="">Sign-in</a>
+    </div>
+    
+    <h1 style="margin: 50px auto; width:50%;text-align:center; font-size:300%; font-color:#000000;background-color:inherit;; opacity:.8">🆄niversity 🄰pplication 🅢ystem</h1>
+
+
+    <div class="searchdiv">
+      <input style="width:100%;" type="text" id="myInput" onkeyup="search()" placeholder="Search for Universities..." title="Type in a name">
+    </div>
+
+    <div class="tbldiv">
+        <table id="myTable">
+          <thead class="thead">
+            <th>World Rank <button style="background-color: black;color:grey; radius:50%;" onclick="sortTable()">^</button></th>
+            <th>Name</th>
+            <th>Country</th>
+          </thead>
+          <tr class="row2">
+            <td>10</td>
+            <td> <a href="https://www.uchicago.edu/" target="_blank" rel="noopener noreferrer">University of Chicago</a></td>
+            <td>USA</td>
+          </tr>
+          <tr class="row1">
+            <td>9</td>
+            <td> <a href="https://www.ucl.ac.uk/" target="_blank" rel="noopener noreferrer">UCL</a></td>
+            <td>England</td>
+          </tr>
+          <tr class="row2">
+            <td>8</td>
+            <td> <a href="https://ethz.ch/en.html" target="_blank" rel="noopener noreferrer">ETH Zurich - SFIT</a></td>
+            <td>Switzerland</td>
+          </tr>
+          <tr class="row1">
+            <td>7</td>
+            <td> <a href="https://www.imperial.ac.uk/" target="_blank" rel="noopener noreferrer">Imperial College London</a></td>
+            <td>England</td>
+          </tr>
+          <tr class="row2">
+            <td>6</td>
+            <td> <a href="https://www.caltech.edu/" target="_blank" rel="noopener noreferrer">California Institute of Technology</a></td>
+            <td>USA</td>
+          </tr>
+          <tr class="row1">
+            <td>5</td>
+            <td> <a href="https://www.harvard.edu/" target="_blank" rel="noopener noreferrer">Harvard University</a></td>
+            <td>USA</td>
+          </tr>
+          <tr class="row2">
+            <td>4</td>
+            <td> <a href="https://www.cam.ac.uk/" target="_blank" rel="noopener noreferrer">University of Cambridge</a></td>
+            <td>England</td>
+          </tr>
+          <tr class="row1">
+            <td>3</td>
+            <td> <a href="https://www.stanford.edu/" target="_blank" rel="noopener noreferrer">Stanford University</a></td>
+            <td>USA</td>
+          </tr>
+          <tr class="row2">
+            <td>2</td>
+            <td> <a href="https://www.ox.ac.uk/" target="_blank" rel="noopener noreferrer">University of Oxford</a></td>
+            <td>England</td>
+          </tr>
+          <tr class="row1">
+            <td>1</td>
+            <td> <a href="https://web.mit.edu/" target="_blank" rel="noopener noreferrer">Massachusetts Institute of Technology</a></td>
+            <td>USA</td>
+          </tr>
+        </table>
+      </div>
+
+      
+</body>
+</html>
